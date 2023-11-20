@@ -1,0 +1,45 @@
+{
+  "data": [
+    {
+      "id": 1,
+      "name": "Linus",
+      "gamestatus": [
+        {
+          "opponent": "2",
+          "rounds": 2,
+          "result": "won"
+        },
+        {
+          "opponent": "3",
+          "rounds": 1,
+          "result": "won"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Kalle",
+      "gamestatus": []
+    },
+    {
+      "id": 3,
+      "name": "Bengt",
+      "gamestatus": []
+    },
+    {
+      "id": 4,
+      "name": "Anders",
+      "gamestatus": [
+        {
+          "opponent": "2",
+          "rounds": 2,
+          "result": "tie"
+        }
+      ]
+    }
+  ],
+  "test": {
+    "id": 1,
+    "text": "This is a test object"
+  }
+}
