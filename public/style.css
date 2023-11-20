@@ -1,0 +1,20 @@
+/* style.css */
+
+.board {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  /* Three columns with equal width */
+  gap: 5px;
+  /* Adjust the gap between cells if needed */
+}
+
+.cell {
+  width: 100%;
+  height: 100px;
+  /* Adjust the height of each cell if needed */
+  border: 1px solid #000;
+  /* Add a border for better visibility */
+  text-align: center;
+  font-size: 24px;
+  cursor: pointer;
+}

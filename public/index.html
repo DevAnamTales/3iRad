@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Tic Tac Toe Game</title>
+  <!-- Add any additional styles or scripts here -->
+</head>
+
+<body>
+
+  <main>
+    <label for="player1">Select User 1: </label>
+    <select id="player1"></select>
+
+    <label for="player2">Select User 2: </label>
+    <select id="player2"></select>
+    <button id="startGameBtn">Start Game</button>
+
+    <div id="game-board">
+      <p id="player-display"></p>
+      <div class="board">
+        <div class="cell" onclick="handleCellClick(0)"></div>
+        <div class="cell" onclick="handleCellClick(1)"></div>
+        <div class="cell" onclick="handleCellClick(2)"></div>
+        <div class="cell" onclick="handleCellClick(3)"></div>
+        <div class="cell" onclick="handleCellClick(4)"></div>
+        <div class="cell" onclick="handleCellClick(5)"></div>
+        <div class="cell" onclick="handleCellClick(6)"></div>
+        <div class="cell" onclick="handleCellClick(7)"></div>
+        <div class="cell" onclick="handleCellClick(8)"></div>
+      </div>
+    </div>
+  </main>
+
+  <!-- Add any additional scripts here -->
+  <script type="module" src="app.js"></script>
+</body>
+
+</html>
